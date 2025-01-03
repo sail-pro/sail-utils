@@ -6,10 +6,10 @@
 	<!-- 项目坐标 -->
 	<groupId>io.github.sail-pro</groupId>
 	<artifactId>sail-utils</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>0.0.1</version>
 	<!-- 项目信息 -->
 	<name>sail-utils</name>
-	<description>sail-utils</description>
+	<description>我的工具库</description>
 	<url>https://github.com/sail-pro/sail-utils</url>
 	<packaging>jar</packaging>
 
@@ -106,7 +106,7 @@
 				<version>${maven.gpg.plugin}</version>
 				<configuration>
 					<!-- 改成你自己的路径 -->
-					<executable>D:\ProgramFiles\GnuPG\bin\gpg.exe</executable>
+					<executable>/opt/homebrew/bin/gpg</executable>
 				</configuration>
 				<executions>
 					<execution>
@@ -138,7 +138,9 @@
 	</build>
 	<!--版本控制-->
 	<scm>
-
+		<url>https://github.com/sail-pro/sail-utils/tree/main</url>
+		<connection>scm:git:https://github.com/sail-pro/sail-utils.git</connection>
+		<developerConnection>scm:git:https://github.com/sail-pro/sail-utils.git</developerConnection>
 	</scm>
 
 	<!--开发者信息-->
